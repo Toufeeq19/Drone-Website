@@ -1,0 +1,147 @@
+@import url('https://fonts.cdnfonts.com/css/bebas-neue'); 
+
+.text {
+  font-size: 20px;
+  text-align: center;
+  font-family: "Bebas Neue" ;
+}
+p{
+font-weight: 525;
+}
+body {
+  color: rgb(70, 67, 67);
+  background-image: url("images/back.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.image-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto;
+  padding: 30px;
+}
+.frames {
+  height: 500px;
+  width: 320px;
+  padding: 20px 20px;
+  height: 240px;
+}
+.frames img{
+  width: 100%;
+  height: 100%;
+}
+img:hover {
+  opacity: 0.2;
+}
+.content {
+  margin: 0 auto;
+  padding: 0 2em;
+  max-width: 800px;
+  margin-bottom: 50px;
+  line-height: 1.6em;
+}
+.header {
+  margin: 0;
+  color: #333;
+  text-align: center;
+  padding: 2.5em 2em 0;
+  border-bottom: 1px solid #eee;
+}
+.header h1 {
+  margin: 0.2em 0;
+  font-size: 3em;
+  font-weight: 300;
+}
+.header h2 {
+  font-weight: 300;
+  color: rgb(63, 62, 62);
+  padding: 0;
+  margin-top: 0;
+}
+.content-subheader {
+  margin: 50px 0 20px 0;
+  font-weight: 300;
+  color: rgb(63, 62, 62);
+}
+.topnav {
+    background-color: rgb(10, 10, 10);
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Bebas Neue" ;
+}
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: rgb(10, 10, 10);
+}
+.topnav a.active {
+    background-color: rgb(72, 86, 87);
+    color: white;
+}
+.content-full a:link{
+    color: rgb(10, 10, 10);
+}
+.content-full a:visited{
+  color: rgb(10, 10, 10);
+}
+.content-full a:hover{
+  color: rgb(10, 10, 10);
+}
+.content-full a:active{
+  color: rgb(10, 10, 10);
+}
+.footer{
+  font-family: "Bebas Neue" ;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  background-color: rgb(10, 10, 10);
+  color: #f2f2f2;
+  text-align: center;
+}
+.form{
+ font-family: Arial, Helvetica, sans-serif;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}

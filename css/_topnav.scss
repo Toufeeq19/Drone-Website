@@ -1,0 +1,23 @@
+.topnav {
+	background-color: $background-color_1;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: $font-family_2;
+	a {
+		float: left;
+		color: $color_4;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-size: 25px;
+		&:hover {
+			background-color: $background-color_2;
+			color: $color_5;
+		}
+	}
+	a.active {
+		background-color: $background-color_3;
+		color: $color_6;
+	}
+}
